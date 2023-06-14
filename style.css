@@ -5,9 +5,19 @@ a {
     font-size: 24px;
 }
 
-
+body {
+    background-color: goldenrod;
+}
+.chicken-photo  {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    display: inline;
+}
 * {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-sizing: border-box;
+
 }
 
 .front-title {
@@ -19,11 +29,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: solid 5px black;
     border-left: solid 10px black;
     border-right: solid 10px black;
-    padding: 5px;
+    padding: 30px 5px;
     background-color: red;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 75px;
     margin-top: 200px;
+    
 }
 
 .chicken {
@@ -31,25 +42,25 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: solid 5px black;
     border-left: solid 10px black;
     border-right: solid 10px black;
-    padding: 5px;
+    padding: 30px 5px;
     background-color: red;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 75px;
 }
 .chilli {
     border-top: solid 5px  black;
     border-bottom: solid 5px black;
     border-left: solid 10px black;
     border-right: solid 10px black;
-    padding: 5px;
+    padding: 30px 5px;
     background-color: red;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 75px;
 }
 
 
 
-.recipe-card {
+.recipe-card  {
     border: dotted 4px black;
     padding: 15px;
     background-color: rgb(202, 141, 119);
