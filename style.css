@@ -1,18 +1,57 @@
-a {background-color:red ;
-    color: yellow;
-    line-height: 7;
-}
-
-.page {background-color: orange;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.links {
+a {
+    background-color: red;
+    text-decoration: none;
+    color: black;
     font-size: 24px;
 }
 
-h3 
-{background-color: red;
+
+* {background-color: orange;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.front-title {
+    text-align: center;
+}
 
+.spaghetti {
+    border-top: solid 5px  black;
+    border-bottom: solid 5px black;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
+    padding: 5px;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.chicken {
+    border-top: solid 5px  black;
+    border-bottom: solid 5px black;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
+    padding: 5px;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.chilli {
+    border-top: solid 5px  black;
+    border-bottom: solid 5px black;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
+    padding: 5px;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 200px;
+}
+h3 
+{background-color: red;
+border: 5px black;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
